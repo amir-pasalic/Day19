@@ -1,8 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
-
 
 class App extends Component {
   render() {
@@ -14,4 +12,3 @@ class App extends Component {
   }
 }
 ReactDOM.render(<App />, document.getElementById("root"));
-
