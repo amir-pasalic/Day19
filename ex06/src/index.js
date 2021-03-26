@@ -6,9 +6,10 @@ import "./index.css";
 
 class App extends React.Component {
     render() {
+      const world = "world";
       return (
         <div className="App">
-          <h1>Hello, Padawans!</h1>
+          <h1>Hello, {world}!</h1>
         </div>
       );
     }
